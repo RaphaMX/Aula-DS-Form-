@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+    <div class="Cadastro">
+        <h2>Cadastro de Produtos</h2>
+        <form action="" autocomplete="off">
+            <p>
+                <label for="name">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Insira Nome">
+            </p>
+            <p>
+                <label for="name">Preço:</label>
+                <input type="number" name="preco" id="preco" placeholder="Insira Preço">
+            </p>
+            <p>
+                <label for="name">Quantidade:</label>
+                <input type="number" name="qtd" id="qtd" placeholder="Insira Quantidade">
+            </p>
+            <button type="button" onclick="cad()">Cadastrar</button>
+            <button type="button" onclick="sTable()">Mostrar Items</button>
+            <button type="button" onclick="hTable()">Fechar Tabela</button>
+        </form>
+        <p id="table"></p>
+    </div>
+    <script src="/assets/script.js"></script>
+</body>
+
+</html>
